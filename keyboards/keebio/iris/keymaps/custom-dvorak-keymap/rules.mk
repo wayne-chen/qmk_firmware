@@ -1,7 +1,7 @@
+# FOR REV 8 IRIS
+BOOTLOADER = rp2040
+# FOR REV 2 IRIS
+# BOOTLOADER = caterina
+
 RGBLIGHT_ENABLE = yes
 BACKLIGHT_ENABLE = yes
-BOOTLOADER = atmel-dfu
-
-ifndef QUANTUM_DIR
-	include ../../../../Makefile
-endif
